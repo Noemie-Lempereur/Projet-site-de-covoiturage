@@ -1,0 +1,46 @@
+#trajet {
+    background: #FFFFFF;
+    border: 5.09854px solid #E7F5FF;
+    box-sizing: border-box;
+    box-shadow: 6.79805px 25.4927px 25.4927px 8.49756px rgba(165, 165, 165, 0.25);
+    border-radius: 33.9902px;
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #0A82F1;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.overlay {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    cursor: pointer;
+}
+
+.popup {
+    margin: 20%auto;
+    width: 70%;
+    background-color: red;
+}
+
+.btnClose {
+    float: right;
+    cursor: pointer;
+}
